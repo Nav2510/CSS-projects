@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("background.png");
+    background-attachment: scroll;
+    background-size: cover;
+}
+/* registration form */
+.registration-form-container {
+    //border: 1px solid red;
+    background-color: #ffffff;
+    width: 40vw;
+    margin: auto;
+    padding: 7px;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.4);
+}
+.form-header {
+    margin: 15px auto;
+}
+.registration-form {
+    //border: 1px solid green;
+}
+.input-wrapper {
+    //border: 1px solid blue;
+    display: block;
+    width: 48%;
+    margin: 5px 0 5px 0;
+}
+.state-input-wrapper {
+    //border: 1px solid blue;
+    display: block;
+    width: 48%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+} 
+.input-wrapper input {
+    width: 98%;
+}
+.input-wrapper select {
+    width: 100%;
+}
+
+/* registration form ends here */
