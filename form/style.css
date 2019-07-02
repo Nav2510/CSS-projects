@@ -6,39 +6,79 @@ body {
 }
 /* registration form */
 .registration-form-container {
-    //border: 1px solid red;
     background-color: #ffffff;
-    width: 40vw;
+    width: max-content;
     margin: auto;
-    padding: 7px;
+    padding: 5px;
     box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.4);
 }
 .form-header {
     margin: 15px auto;
 }
 .registration-form {
-    //border: 1px solid green;
+    width: 420px;
 }
 .input-wrapper {
-    //border: 1px solid blue;
-    display: block;
-    width: 48%;
-    margin: 5px 0 5px 0;
+    margin: 5px 0px 5px 0px;
+    font-size: 10px;
+    color: #ababab;
 }
-.state-input-wrapper {
-    //border: 1px solid blue;
+.input-wrapper input{
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    letter-spacing: 1px;
+    font-size: 13px;
+    color: #343434;
+}
+.input-wrapper select {
+    width: 202px;
+    border: none;
+    border-bottom: 1px solid #ababab;
+    letter-spacing: 1px;
+    color: #343434;
+    -webkit-appearance: none;
+}
+.select-wrapper {
+    position: relative;
+}
+.select-wrapper::after{
+    content: "\f078";
+    font-family: 'FontAwesome';
+    position: relative;
+    top: 0px;
+    right: 13px;
+}
+.checkbox-wrapper label, .radio-wrapper label{
     display: block;
-    width: 48%;
+}
+.checkbox-wrapper label, .radio-wrapper label {
+    font-size: 10px;
+    color: #ababab;
+}
+
+.state-input-wrapper select {
+    width: 86px;
 }
 .row {
     display: flex;
     justify-content: space-between;
+}
+.state-wrapper {
+    width: 202px;
 } 
-.input-wrapper input {
-    width: 98%;
+.radio-wrapper {
+    width: 205px;
 }
-.input-wrapper select {
-    width: 100%;
+.checkbox-wrapper {
+    width: 206px;
 }
-
+.checkbox-wrapper input{
+    margin-right: 7px;
+}
+.submit-wrapper {
+    margin: 5px 0px 5px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
 /* registration form ends here */
